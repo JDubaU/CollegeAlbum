@@ -10,6 +10,9 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    
+    @IBOutlet weak var addPhoto: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +22,10 @@ class HomeViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func addPhoto(_ sender: Any) {
+        
     }
     
 

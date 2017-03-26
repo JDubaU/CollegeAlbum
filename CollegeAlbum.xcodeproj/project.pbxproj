@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61798F01E75DBC9009CA85F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61798EF1E75DBC9009CA85F /* HomeViewController.swift */; };
+		C61798F21E75E10D009CA85F /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61798F11E75E10D009CA85F /* AddPhotoViewController.swift */; };
 		C67F0ED81E75D80900D24445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F0ED71E75D80900D24445 /* AppDelegate.swift */; };
-		C67F0EDA1E75D80900D24445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F0ED91E75D80900D24445 /* ViewController.swift */; };
 		C67F0EDD1E75D80900D24445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67F0EDB1E75D80900D24445 /* Main.storyboard */; };
 		C67F0EE01E75D80900D24445 /* CollegeAlbum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C67F0EDE1E75D80900D24445 /* CollegeAlbum.xcdatamodeld */; };
 		C67F0EE21E75D80900D24445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67F0EE11E75D80900D24445 /* Assets.xcassets */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C61798EF1E75DBC9009CA85F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C61798F11E75E10D009CA85F /* AddPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 		C67F0ED41E75D80900D24445 /* CollegeAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67F0ED71E75D80900D24445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C67F0ED91E75D80900D24445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C67F0EDC1E75D80900D24445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C67F0EDF1E75D80900D24445 /* CollegeAlbum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollegeAlbum.xcdatamodel; sourceTree = "<group>"; };
 		C67F0EE11E75D80900D24445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				C67F0ED71E75D80900D24445 /* AppDelegate.swift */,
-				C67F0ED91E75D80900D24445 /* ViewController.swift */,
+				C61798EF1E75DBC9009CA85F /* HomeViewController.swift */,
+				C61798F11E75E10D009CA85F /* AddPhotoViewController.swift */,
 				C67F0EDB1E75D80900D24445 /* Main.storyboard */,
 				C67F0EE11E75D80900D24445 /* Assets.xcassets */,
 				C67F0EE31E75D80900D24445 /* LaunchScreen.storyboard */,
@@ -140,8 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C67F0EE01E75D80900D24445 /* CollegeAlbum.xcdatamodeld in Sources */,
-				C67F0EDA1E75D80900D24445 /* ViewController.swift in Sources */,
+				C61798F21E75E10D009CA85F /* AddPhotoViewController.swift in Sources */,
 				C67F0ED81E75D80900D24445 /* AppDelegate.swift in Sources */,
+				C61798F01E75DBC9009CA85F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +307,7 @@
 				C67F0EEB1E75D80900D24445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
